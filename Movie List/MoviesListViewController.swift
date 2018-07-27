@@ -1,5 +1,5 @@
 //
-//  MoviesTableViewController.swift
+//  MoviesListViewController.swift
 //  Movie List
 //
 //  Created by Alex Roberts on 7/27/18.
@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class MoviesTableViewController: UIViewController, MoviesPresenter, UITableViewDataSource {
+class MoviesListViewController: UIViewController, MoviesPresenter, UITableViewDataSource {
 	
 	// MARK: - UITableViewDataSource
 	
