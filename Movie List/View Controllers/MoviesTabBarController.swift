@@ -3,14 +3,13 @@
 //  Movie List
 //
 //  Created by Alex Roberts on 7/27/18.
-//  Copyright © 2018 Lambda School. All rights reserved.
+//  Copyright © 2018 Lambda School Inc. All rights reserved.
 //
 
-import Foundation
 import UIKit
 
-class PlacesTabBarViewController: UITabBarController {
-	
+class MoviesTabBarController: UITabBarController {
+
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
@@ -23,4 +22,5 @@ class PlacesTabBarViewController: UITabBarController {
 	
 	let movieController = MovieController()
 	
+
 }

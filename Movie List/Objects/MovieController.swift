@@ -3,11 +3,10 @@
 //  Movie List
 //
 //  Created by Alex Roberts on 7/27/18.
-//  Copyright © 2018 Lambda School. All rights reserved.
+//  Copyright © 2018 Lambda School Inc. All rights reserved.
 //
 
 import Foundation
-
 class MovieController {
 	
 	func createMovie(withText text: String) {
@@ -20,6 +19,8 @@ class MovieController {
 		
 		movies.remove(at: index)
 	}
+
+	
 	
 	// MARK: - Properties
 	
